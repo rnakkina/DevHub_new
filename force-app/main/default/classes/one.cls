@@ -4,7 +4,7 @@ public class one {
     public string userfstname;
     public string userlstname;
     public integer age;
-    public date DOB;
+    public date DOB1;
     public string position;
     public void display()
     {
