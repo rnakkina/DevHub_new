@@ -12,4 +12,8 @@ public with sharing class Display {
         system.debug('FDOB:' +DOB);
         system.debug('position:' +position);
     }
+    public void display_name()
+    {
+        system.debug('First Name:' +userfstname);
+    }
 }
