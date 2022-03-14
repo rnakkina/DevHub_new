@@ -14,4 +14,12 @@ public class one {
         system.debug('FDOB:' +DOB);
         system.debug('position:' +position);
     }
+    public void display2()
+    {
+        system.debug('First Name:' +userfstname);
+        system.debug('Last Name:' +userlstname);
+        system.debug('age:' +age);
+        system.debug('FDOB:' +DOB);
+        system.debug('position:' +position);
+    }
 }
