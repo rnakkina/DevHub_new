@@ -1,3 +1,9 @@
+/************
+ * Name: display
+ * date: 14th Mar
+ * feature2 brc 
+ */
+
 public with sharing class Display {
     public string userfstname;
     public string userlstname;
@@ -11,5 +17,13 @@ public with sharing class Display {
         system.debug('age:' +age);
         system.debug('FDOB:' +DOB);
         system.debug('position:' +position);
+    }
+    public void display_val_dob()
+    {
+        system.debug('FDOB:' +DOB);
+     }
+    public void display_name()
+    {
+        system.debug('First Name:' +userfstname);
     }
 }
