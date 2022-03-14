@@ -1,7 +1,7 @@
 /************
  * Name: display
  * date: 14th Mar
- * develop brc 
+ * feature2 brc 
  */
 
 public with sharing class Display {
@@ -18,6 +18,10 @@ public with sharing class Display {
         system.debug('FDOB:' +DOB);
         system.debug('position:' +position);
     }
+    public void display_val_dob()
+    {
+        system.debug('FDOB:' +DOB);
+     }
     public void display_name()
     {
         system.debug('First Name:' +userfstname);
