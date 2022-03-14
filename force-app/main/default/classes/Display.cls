@@ -21,5 +21,9 @@ public with sharing class Display {
     public void display_val_dob()
     {
         system.debug('FDOB:' +DOB);
+     }
+    public void display_name()
+    {
+        system.debug('First Name:' +userfstname);
     }
 }
