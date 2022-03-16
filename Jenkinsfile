@@ -41,6 +41,7 @@ node {
 	}else {
 		rmsg = bat returnstdout: true, script: "${toolbelt} ${rk} force:mdapi:deploy -d manifest/. -u ${HUB_ORG}"
 	}
+	rc = 0
 	printf rmsg
 	println ('Hello from a Job DSL script!')
 	println(rmsg)
