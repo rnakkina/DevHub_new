@@ -38,7 +38,7 @@ node {
 	if (isUnix()) {
 		rmsg = sh returnstdout: true, script: "${toolbelt} force:mdapi:deploy -d manifest/. -u ${HUB_ORG}"
 	}else {
-		rmsg = bat returnstdout: true, script: "\"${toolbelt}\" force:mdapi:deploy -d manifest/. -u ${HUB_ORG}"
+		rmsg = bat returnstdout: true, script: "${toolbelt}/sfdx force:mdapi:deploy -d manifest/. -u ${HUB_ORG}"
 	}
 	printf rmsg
 	println ('Hello from a Job DSL script!')
