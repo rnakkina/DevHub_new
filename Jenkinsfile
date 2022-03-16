@@ -16,7 +16,7 @@ node {
 	println SFDC_HOST
 	println CONNECTED_APP_CONSUMER_KEY
 	def toolbelt = tool 'toolbelt'
-	def rk = 'C:\Program Files\sfdx\bin\sfdx'
+
 
 	stage ('checkout source')
 	{
